@@ -16,6 +16,8 @@ function setBtnOnCLickListener_get_results() {
     let x = document.getElementById('answer');
 	x.style.display = "block"
 
+    console.log("любое значение");
+	
     document.getElementById("1").textContent = "Число 1) " + first + ", число 2) " + second;
     document.getElementById("2").textContent = first + " + " + second + " = " + (parseFloat(first) + parseFloat(second));
     document.getElementById("3").textContent = first + " - " + second + " = " + (parseFloat(first) - parseFloat(second));
