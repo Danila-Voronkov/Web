@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="js/script.js"></script>
+   <link rel="stylesheet" href="css/styles.css" />
+   <title>WEB</title>
+</head>
+<body>
+    <div class="main_div">
+        <div class="Data_input">
+            <label for="first_number" class="label">Число 1:</label>
+            <input id="first_number" type="number" name="number" class="input"/>
+        </div>
+        <div class="Data_input">
+            <label for="second_number" class="label">Число 2:</label>
+            <input id="second_number" type="number" name="number" class="input"/>
+        </div>
+        <div class="Data_input">
+            <label for="str" class="label">Строка :</label>
+            <input id="str" type="text" name="text" class="input"/>
+        </div>
+        <input type="submit" value="Полуить результаты" class="btn" id="get_results" onclick="setBtnOnCLickListener_get_results()"/>
+        <input type="reset" value="Стереть" class="btn" id="erase"  onclick="setBtnOnCLickListener_erase()"/>
+    </div>
+    <div class= "answer" id = "answer">
+        <p id = "1"></p>
+        <p id = "2"></p>
+        <p id = "3"></p>
+        <p id = "4"></p>
+        <p id = "5"></p>
+        <p id = "6"></p>
+        <p id = "7"></p>
+        <p id = "8"></p>
+        <p id = "9"></p>
+        <p id = "10"></p>
+        <p id = "11"></p>
+        <p id = "12"></p>
+    </div>
+</body>
+</html>
